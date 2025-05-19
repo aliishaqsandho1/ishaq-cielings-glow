@@ -5,27 +5,27 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const Index = () => {
-  // Sample data - replace with actual content
+  // Sample data with real ceiling images for services
   const services = [
     {
       title: "POP Ceiling Design",
       description: "Beautiful Plaster of Paris ceiling designs customized to your space and style preferences.",
-      icon: "/placeholder.svg",
+      icon: "https://images.unsplash.com/photo-1615529328331-f8917597711f?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80",
     },
     {
       title: "Gypsum Ceilings",
       description: "Modern and versatile gypsum board ceilings for residential and commercial spaces.",
-      icon: "/placeholder.svg",
+      icon: "https://images.unsplash.com/photo-1614178770997-b2d4401cec52?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80",
     },
     {
       title: "Decorative Ceilings",
       description: "Custom decorative ceiling designs that add elegance and character to any room.",
-      icon: "/placeholder.svg",
+      icon: "https://images.unsplash.com/photo-1616111761045-e0acc32478e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80",
     },
     {
       title: "Commercial Projects",
       description: "Specialized false ceiling solutions for offices, hotels, restaurants and other commercial spaces.",
-      icon: "/placeholder.svg",
+      icon: "https://images.unsplash.com/photo-1614457688369-3db37ae21f6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100&q=80",
     },
   ];
 
@@ -41,7 +41,7 @@ const Index = () => {
       <HeroSection
         title="Transform Your Space With Premium False Ceilings"
         subtitle="Islamabad's leading false ceiling specialists, providing exceptional POP and gypsum ceiling installations with elegant designs and superior craftsmanship."
-        backgroundImage="https://images.unsplash.com/photo-1603862018788-39e9acaa1b28?ixlib=rb-4.0.3&auto=format&fit=crop&q=80"
+        backgroundImage="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&auto=format&fit=crop&q=80"
         showScrollIndicator={true}
       />
       
@@ -67,7 +67,7 @@ const Index = () => {
               <div className="relative">
                 <div className="absolute -top-4 -right-4 w-full h-full border-2 border-accent rounded-lg"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1584893572938-757e6c603046?ixlib=rb-4.0.3&auto=format&fit=crop&q=80"
+                  src="https://images.unsplash.com/photo-1615529328171-77a0c8021ecf?ixlib=rb-4.0.3&auto=format&fit=crop&q=80"
                   alt="Our work"
                   className="w-full h-full object-cover rounded-lg"
                 />
